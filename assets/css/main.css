@@ -1989,6 +1989,16 @@
 		}
 
 /* Image */
+
+	.proj {
+		display: flex;
+		margin: 0 auto;
+		margin-top: 80px;
+		margin-bottom: 80px;
+		width: 200px;
+		max-height: 200px;
+	}
+
 	#article {
 	opacity: 1.0;
     transition: opacity .1s ease-in-out;
@@ -2096,25 +2106,6 @@
 			}
 
 /* List */
-
-	.container-projects {
-		margin: 0 auto;
-		padding: 20 20 20 20;
-	}
-
-	.project {
-		display: flex;
-		margin: 0 auto;
-		margin-top: 80px;
-		margin-bottom: 80px;
-		width: 200px;
-		max-height: 200px;
-	}
-
-	#mokens {
-		margin-bottom: 120px;
-	}
-
 
 	ol {
 		list-style: decimal;
