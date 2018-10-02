@@ -1950,8 +1950,7 @@
 /* Box */
 
 	.box {
-		border-radius: 0.35em;
-		border: solid 2px #efefef;
+		border-radius: 0.55em;
 		margin-bottom: 2em;
 		padding: 1.5em;
 	}
@@ -1990,6 +1989,19 @@
 		}
 
 /* Image */
+	#article {
+	opacity: 1.0;
+    transition: opacity .1s ease-in-out;
+    -moz-transition: opacity .1s ease-in-out;
+    -webkit-transition: opacity .1s ease-in-out;
+	}
+
+	#article:hover {
+	opacity: 0.4;
+    transition: opacity .35s ease-in-out;
+    -moz-transition: opacity .35s ease-in-out;
+    -webkit-transition: opacity .35s ease-in-out;
+	}
 
 	.image {
 		border-radius: 0.35em;
@@ -2019,31 +2031,11 @@
 			text-align: center;
 			width: 100%;
 			height: auto;
+			border: solid 2px;
 		}
 
-			.image.thumb:after {
-				-moz-transition: opacity 0.2s ease-in-out;
-				-webkit-transition: opacity 0.2s ease-in-out;
-				-ms-transition: opacity 0.2s ease-in-out;
-				transition: opacity 0.2s ease-in-out;
-				border-radius: 0.35em;
-				border: solid 3px rgba(255, 255, 255, 0.5);
-				color: #fff;
-				content: 'View';
-				display: inline-block;
-				font-size: 0.8em;
-				font-weight: 400;
-				left: 50%;
-				line-height: 2.25em;
-				margin: -1.25em 0 0 -3em;
-				opacity: 0;
-				padding: 0 1.5em;
-				position: absolute;
-				text-align: center;
-				text-decoration: none;
-				top: 50%;
-				white-space: nowrap;
-			}
+			
+
 
 			.image.thumb:hover:after {
 				opacity: 1.0;
@@ -2082,7 +2074,6 @@
 		.image.fit {
 			display: block;
 			margin: 0 0 2em 0;
-			width: 100%;
 		}
 
 			.image.fit img {
@@ -2106,6 +2097,23 @@
 
 /* List */
 
+	.container-projects {
+		margin: 0 auto;
+		padding: 20 20 20 20;
+	}
+
+	.project {
+		display: flex;
+		margin: 0 auto;
+		margin-top: 80px;
+		margin-bottom: 80px;
+		width: 200px;
+		max-height: 200px;
+	}
+
+	#mokens {
+		margin-bottom: 120px;
+	}
 
 
 	ol {
