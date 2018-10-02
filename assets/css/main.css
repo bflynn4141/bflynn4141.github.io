@@ -1716,12 +1716,18 @@
 
 	.projects {
 		text-align: center;
+		float: left;
 	}
 
 	header p {
 		color: #b2b2b2;
 		position: relative;
 		margin: 0 0 1.5em 0;
+	}
+
+	.fontzy {
+		font-family: 'Rokkitt', serif;
+		color: #191970;
 	}
 
 	header h2 + p {
@@ -2011,6 +2017,8 @@
 
 		.image.thumb {
 			text-align: center;
+			width: 100%;
+			height: auto;
 		}
 
 			.image.thumb:after {
@@ -2079,7 +2087,9 @@
 
 			.image.fit img {
 				width: 100%;
+				height: 15em;
 			}
+
 
 		.image.avatar {
 			border-radius: 100%;
@@ -3132,13 +3142,21 @@
 	}
 
 	.grabbit{ 
-	width: 540px;
-    margin-top:90px;
-    margin-left: auto; 
-    margin-right: auto;
-
-     text-align: justify;
-    -ms-text-justify: distribute-all-lines;
-    text-justify: distribute-all-lines;
+	display: inline-block;
+	width: 100px;
+    float: left;
 }	
 
+	.nftyNews {
+		display: inline-block;
+		width: 200px;
+		float: left;
+	}
+
+.center {
+    display: block;
+    margin-left: 5px
+    margin-right: auto;
+    width: 50%;
+
+}
